@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+}
+.empInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 1px solid black;
+  width: 292px;
+  background-color: bisque;
+  margin: 10px 0px 10px 10px;
+}
+.empInfo input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+}
+.empInfo label {
+  font-size: 20px;
+  margin: 10px;
+}
+.empInfo button {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  width: 260px;
+  height: 40px;
+  border: none;
+}
+.seeEmpInfo {
+  background-color: bisque;
+  border: 1px solid black;
+  width: 1000px;
+  height: 600px;
+  margin: 10px 0px 10px 10px;
+}
